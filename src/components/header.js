@@ -3,7 +3,7 @@ function Header({ togglehowto }) {
         <div className='header'>
             <div className='divOne'>
                 <h1 className='title'>
-                    Brands Memorizar
+                    Football Clubs Memorizar
                 </h1>
             </div>
 
