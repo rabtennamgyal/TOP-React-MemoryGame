@@ -1,3 +1,10 @@
-html, body {
-    background: #71f6ff;
-}
+// Global Files 🌎🌍🌏
+@import './global/_global';
+@import './global/_mixin';
+
+
+
+// Components Files 🔮🐱‍🏍
+@import './components/header.scss';
+@import './components/components.scss';
+@import './components/howtoplay.scss';

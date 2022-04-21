@@ -1,0 +1,12 @@
+.header {
+    height: 10rem;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    background-color: #ffa500;
+
+    .divOne, .divTwo {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    };
+};

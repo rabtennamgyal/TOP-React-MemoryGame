@@ -1,0 +1,31 @@
+.title {
+    cursor: pointer;
+    color: #fff;
+    font-size: 4rem;
+    font-family: cursive, monospace, sans-serif;
+};
+
+.button {
+    background: linear-gradient(to right, black 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    border: none;
+    cursor: pointer;
+    height: 3rem;
+    width: 10rem;
+    border-radius: 2rem;
+    outline: none;
+    font-family: cursive, monospace, sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    transition: all .5s ease-out;
+
+    &:hover {
+        color: #fff;
+        background-position: left bottom;
+    };
+
+    &:active {
+        transform: scale(.9);
+        transition: 0.7s ease-in-out;
+    }
+};
