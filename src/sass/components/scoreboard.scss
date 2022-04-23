@@ -1,0 +1,20 @@
+.scoreboard {
+    height: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+
+    .divOne, .divTwo {
+        height: 100%;
+        display: grid;
+        justify-content: center;
+        align-items: center;    
+
+        p {
+            font-size: 2rem;
+            font-family: Open Sans, sans-serif;
+            font-weight: 400;
+        }
+    }
+};
